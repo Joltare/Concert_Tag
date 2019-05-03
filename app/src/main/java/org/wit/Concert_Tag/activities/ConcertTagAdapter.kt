@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.card_placemark.view.*
+import kotlinx.android.synthetic.main.card_concert.view.*
 import org.wit.Concert_Tag.R
 import org.wit.Concert_Tag.helpers.readImageFromPath
 import org.wit.Concert_Tag.models.PlacemarkModel
@@ -17,7 +17,7 @@ class PlacemarkAdapter constructor(private var placemarks: List<PlacemarkModel>,
                                    private val listener: PlacemarkListener) : RecyclerView.Adapter<PlacemarkAdapter.MainHolder>() {
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainHolder {
-    return MainHolder(LayoutInflater.from(parent?.context).inflate(R.layout.card_placemark, parent, false))
+    return MainHolder(LayoutInflater.from(parent?.context).inflate(R.layout.card_concert, parent, false))
   }
 
   override fun onBindViewHolder(holder: MainHolder, position: Int) {

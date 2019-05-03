@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name="org.wit.Concert_Tag.activities.WhereActivity" />
-        <activity android:name="org.wit.Concert_Tag.activities.PlacemarkListActivity">
+        <activity android:name="org.wit.Concert_Tag.activities.TheTrailActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

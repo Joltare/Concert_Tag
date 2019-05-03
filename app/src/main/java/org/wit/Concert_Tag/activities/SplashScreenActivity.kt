@@ -13,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
     Timer().schedule( object : TimerTask(){
         override fun run() {
-         val intent=Intent(this@SplashScreenActivity,PlacemarkListActivity::class.java)
+         val intent=Intent(this@SplashScreenActivity,TheTrailActivity::class.java)
         startActivity(intent)
             finish()
         }
