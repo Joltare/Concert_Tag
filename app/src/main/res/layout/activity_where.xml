@@ -42,7 +42,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_margin="8dp"
-          android:hint="Album Name"
+          android:hint="Band Name"
           android:inputType="text"
           android:maxLength="25"
           android:maxLines="1"
@@ -55,7 +55,7 @@
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_margin="8dp"
-          android:hint="@string/hint_placemarkDescription"
+          android:hint="Where?"
           android:inputType="text"
           android:maxLength="25"
           android:maxLines="1"
@@ -71,7 +71,7 @@
           android:background="@color/colorAccent"
           android:paddingBottom="8dp"
           android:paddingTop="8dp"
-          android:text="@string/button_addImage"
+          android:text="Post A Pic :)"
           android:textColor="@color/colorPrimary"
           android:textSize="16sp"/>
 
@@ -90,7 +90,7 @@
           android:paddingBottom="8dp"
           android:paddingTop="8dp"
           android:stateListAnimator="@null"
-          android:text="@string/button_location"
+          android:text="Tag Yourself"
           android:textColor="@color/colorPrimary"
           android:textSize="16sp"/>
 
@@ -103,7 +103,7 @@
           android:paddingBottom="8dp"
           android:paddingTop="8dp"
           android:stateListAnimator="@null"
-          android:text="@string/button_addPlacemark"
+          android:text="Save a memory"
           android:textColor="@color/colorPrimary"
           android:textSize="16sp" />
 

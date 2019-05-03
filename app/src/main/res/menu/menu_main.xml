@@ -4,12 +4,12 @@
 
   <item
     android:id="@+id/item_add"
-    android:icon="@android:drawable/ic_menu_add"
+    android:icon="@android:drawable/ic_menu_compass"
     android:title="@string/menu_addPlacemark"
     app:showAsAction="always" />
   <item
     android:id="@+id/item_map"
-    android:icon="@android:drawable/ic_menu_mapmode"
+    android:icon="@android:drawable/ic_dialog_map"
     android:title="@string/menu_addPlacemark"
     app:showAsAction="always"/>
 </menu>
