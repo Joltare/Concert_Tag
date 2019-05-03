@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/white"></item>
+    <item>
+        <bitmap android:src="@drawable/scream_back" />
+    </item>
+</layer-list>
