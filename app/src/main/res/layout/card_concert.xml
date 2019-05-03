@@ -9,7 +9,9 @@
   <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp">
+    android:padding="16dp"
+      android:background="@drawable/green">
+
 
     <ImageView
         android:id="@+id/imageIcon"
@@ -37,4 +39,5 @@
       android:layout_toRightOf="@+id/imageIcon"/>
 
   </RelativeLayout>
+
 </android.support.v7.widget.CardView>
