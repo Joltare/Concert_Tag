@@ -40,7 +40,7 @@ class WhereActivity : AppCompatActivity(), AnkoLogger {
       placemark = intent.extras.getParcelable<PlacemarkModel>("placemark_edit")
       placemarkTitle.setText(placemark.title)
       description.setText(placemark.description)
-      placemarkImage.setImageBitmap(readImageFromPath(this, placemark.image))
+
       if (placemark.image != null) {
         chooseImage.setText(R.string.change_placemark_image)
       }
@@ -105,7 +105,7 @@ class WhereActivity : AppCompatActivity(), AnkoLogger {
       IMAGE_REQUEST -> {
         if (data != null) {
           placemark.image = data.getData().toString()
-          placemarkImage.setImageBitmap(readImage(this, resultCode, data))
+
           chooseImage.setText(R.string.change_placemark_image)
         }
       }
